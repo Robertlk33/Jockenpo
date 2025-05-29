@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jocknpó-Devclub</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jocknpó</h1>
+
+        <div class="botoes">
+            <button id="pedra" onclick="playHuman(`pedra`)">&#x270A;&#x1F3FF;</button>
+            <button id="papel" onclick="playHuman(`papel`)">&#x1F590;&#x1F3FD;</button>
+            <button id="tesoura" onclick="playHuman(`tesoura`)">&#x270C;&#x1F3FC;</button>
+        </div>
+
+         <button class="reiniciar" onclick="restartGame()">Reiniciar</button>
+
+        <p class="result"></p>
+        <p class="you-score">Sua pontuação: <span id="human-score">0</span> </p>
+        <p class="machine-score">Pontuação da Alexa: <span id="machine-score">0</span> </p>
+        <p class="machine-choice">Escolha da Alexa: <span id="machine-choice"></span></p>
+
+</div>
+
+        <div class="caixa">
+            <h1>JocknPô</h1>
+            <p>Jokenpô, ou Pedra, Papel, Tesoura, é um jogo simples de decisão baseado na sorte e estratégia.</p>
+            <h2>Como jogar</h2>
+            <ul>
+                <li>Pedra ganha de Tesoura (quebra a tesoura).</li>
+                <li>Tesoura ganha de Papel (corta o papel).</li>
+                <li>Papel ganha de Pedra (embrulha a pedra).</li>
+            </ul>
+            <p>
+                Cada jogador escolhe uma das três opções e, ao mesmo tempo, revela sua escolha.
+                Quem tiver a opção vencedora ganha a rodada. Se ambos escolherem a mesma coisa, dá empate.
+            </p>
+        </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

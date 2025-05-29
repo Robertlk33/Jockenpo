@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://picsum.photos/1600/900);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+     flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     margin-bottom: 20px;
+}
+
+.botoes {
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 5vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.reiniciar {
+    margin-top: 20px;
+    /* Espaçamento entre os botões */
+    padding: 10px 20px;
+    font-size: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff1e00;
+    /* Cor diferenciada */
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#reiniciar:hover {
+    opacity: 0.8;
+}
+
+#pedra {
+    background-color: #a200ff;
+}
+
+#papel {
+    background-color: #00ff00;
+}
+
+#tesoura {
+    background-color: #7dbeed;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.you-score span {
+    color: #1202ff;
+}
+
+.machine-score span {
+    color: #d31919;
+}
+
+.caixa {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #474545;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caixa h2 {
+    margin-bottom: 15px;
+}
+
+.caixa ul {
+    margin: 10px 0 20px 20px;
+    list-style: disc;
+}
