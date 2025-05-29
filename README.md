@@ -19,3 +19,7 @@ HTML5 → Estrutura do jogo
 CSS → Estilização e responsividade
 <br>
 JAVASCRIPT → Lógica do jogo
+<br>
+<br>
+<br>
+<img src="https://github.com/Robertlk33/Jockenpo/blob/master/assets/Captura%20de%20tela%202025-05-29%20191824.png?raw=true">
